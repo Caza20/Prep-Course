@@ -151,10 +151,10 @@ describe('empiezaConNueve(n))', function() {
 
 describe('todosIguales(arreglo)', function() {
   it('should return true if all the elements of the array are equal and false otherwise', function() {
-    expect(todosIguales([20, 20, 20, 20 ])).toBe(true);
+    expect(todosIguales([20, 20, 20, 20])).toBe(true);
     expect(todosIguales([97, 100, 190, 9])).toBe(false);
    
-    expect(todosIguales([230, 230, 230, 230 ])).toBe(true);
+    expect(todosIguales([230, 230, 230, 230])).toBe(true);
   });
 });
 
